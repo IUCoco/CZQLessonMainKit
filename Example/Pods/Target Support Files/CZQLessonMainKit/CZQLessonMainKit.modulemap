@@ -1,0 +1,6 @@
+framework module CZQLessonMainKit {
+  umbrella header "CZQLessonMainKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
