@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CZQLessonMainKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'CZQLessonMainKit.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: CZQLessonMainKit 主页组件.
   s.source_files = 'CZQLessonMainKit/Classes/**/*'
   
   s.resource_bundles = {
-  'CZQLessonMainKit' => ['CZQLessonMainKit/Assets/*.png']
+  'CZQLessonMainKit' => ['CZQLessonMainKit/Assets/**/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
