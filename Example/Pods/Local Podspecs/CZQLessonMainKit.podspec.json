@@ -1,8 +1,8 @@
 {
   "name": "CZQLessonMainKit",
   "version": "0.1.0",
-  "summary": "A short description of CZQLessonMainKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "CZQLessonMainKit.",
+  "description": "TODO: CZQLessonMainKit 主页组件.",
   "homepage": "https://github.com/IUCoco/CZQLessonMainKit",
   "license": {
     "type": "MIT",
@@ -18,5 +18,30 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CZQLessonMainKit/Classes/**/*"
+  "source_files": "CZQLessonMainKit/Classes/**/*",
+  "resource_bundles": {
+    "CZQLessonMainKit": [
+      "CZQLessonMainKit/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "CZQLessonCategoryKit/Frame": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "SDCycleScrollView": [
+
+    ],
+    "CZQLessonServerKit": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "SVProgressHUD": [
+
+    ]
+  }
 }

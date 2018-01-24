@@ -1,0 +1,6 @@
+framework module CZQLessonServerKit {
+  umbrella header "CZQLessonServerKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
