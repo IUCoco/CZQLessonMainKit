@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CZQLessonMainKit'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'CZQLessonMainKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,22 +30,10 @@ TODO: CZQLessonMainKit 主页组件.
 
   s.ios.deployment_target = '8.0'
 
-#s.source_files = 'CZQLessonMainKit/Classes/**/*.{h,m}'
+  s.source_files = 'CZQLessonMainKit/Classes/**/*.{h,m}'
 
-    s.subspec 'MainMController' do |czqController|
-    czqController.source_files = 'CZQLessonMainKit/Classes/Home/Controller/**/*'
-    end
-
-    s.subspec 'MainMModel' do |czqModel|
-    czqModel.source_files = 'CZQLessonMainKit/Classes/Home/Model/**/*'
-    end
-
-    s.subspec 'MainMView' do |czqView|
-    czqView.source_files = 'CZQLessonMainKit/Classes/Home/View/**/*'
-    end
-  
   s.resource_bundles = {
-  'CZQLessonMainKit' => ['CZQLessonMainKit/Assets/Home/**/*']
+  'CZQLessonMainKit' => ['CZQLessonMainKit/Assets/**/*', 'CZQLessonMainKit/Classes/**/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
