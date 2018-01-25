@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CZQLessonMainKit'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'CZQLessonMainKit.'
 
 # This description is used to generate tags and improve search results.
@@ -32,15 +32,15 @@ TODO: CZQLessonMainKit 主页组件.
 
 #s.source_files = 'CZQLessonMainKit/Classes/**/*.{h,m}'
 
-    s.subspec 'Controller' do |czqController|
+    s.subspec 'MainMController' do |czqController|
     czqController.source_files = 'CZQLessonMainKit/Classes/Home/Controller/**/*'
     end
 
-    s.subspec 'Model' do |czqModel|
+    s.subspec 'MainMModel' do |czqModel|
     czqModel.source_files = 'CZQLessonMainKit/Classes/Home/Model/**/*'
     end
 
-    s.subspec 'View' do |czqView|
+    s.subspec 'MainMView' do |czqView|
     czqView.source_files = 'CZQLessonMainKit/Classes/Home/View/**/*'
     end
   
